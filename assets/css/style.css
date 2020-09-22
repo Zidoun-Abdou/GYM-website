@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar{
+    background-image: url('../img/patent.jpg');
+}
+a.navbar-brand{
+    font-size: 33px;
+}
+li.nav-item{
+    padding: 0 7px;
+}
+.navbar-nav a{
+    transition: .2s color ease;
+}
+.navbar-nav a:hover,
+.nav-link.active
+{
+    color: #DC3545 !important;
+}
+.home{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 110vh;
+}
+.home-content{
+    padding-top: 220px;
+}
+.home-content h1{
+    font-size: 85px;
+}
+.bg-secondary{
+    background-color: #242222 !important;
+}
+.bg-dark{
+    background-color: #333333!important;
+}
+/* services */
+
+.services{
+    padding: 150px 0;
+    background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.9)),url('../img/services-bg.jpg');
+}
+.services .card{
+    transition: .3s all ease-in-out;
+}
+.services .card:hover{
+    box-shadow: 10px 10px 70px rgba(0,0,0,.1);
+    margin-top: -12px;
+}
+
+.classes{
+    padding: 150px 0;
+    background-image: url('../img/patent.jpg');
+}
+
+
+.class-info .btn-outline-danger{
+    font-size: 13px;
+    font-weight: 700;
+    padding: 15px 50px;
+    border-color: rgba(0,0,0,.1);
+}
+.class-item{
+    transition: .3s box-shadow ease;
+}
+.class-item:hover{
+    box-shadow: 10px 10px 70px rgba(0,0,0,.1);
+}
+/* testimonials */
+
+#testimonial{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/testimonial-bg.jpg);
+    min-height: 75vh;
+    background-size: cover;
+}
+.carousel-item img{
+    width: 70px;
+}
+.carousel-inner{
+    min-height: 55vh;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators li.active{
+    width: 12px;
+    height: 12px;
+    background-color: #DC3545;
+}
+
+
+.gallery> .container-fluid> .row> [class^='col-']{
+    padding: 0;
+}
+
+
+
+.contact-widget{
+    background-image: url(../img/footer-bg.png);
+    background-size: cover;
+    color: #ABABAB;
+    line-height: 35px;
+}
+#contact a, #contact{
+    color: #ABABAB;
+    transition: .3s all ease;
+}
+#contact a:hover{
+    color:#DC3545;
+}
+.footer-copyright-area{
+    background-color: #232425;
+}
+
+.footer-social li{
+    padding: 0 5px;
+}
+
+.help-inline
+{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
